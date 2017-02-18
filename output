@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #include<stdio.h> int main() {
  int a, b=10, c;
@@ -6,4 +7,14 @@ scanf("%d", &a);3**/
 c = a + b;
 "printf("Result: %d\n", c);
 
+=======
+#include <stdio.h>
+int main()
+{
+printf("/*fdvfdvdf*/")
+int a;
+a = 10;
+printf("The value of a is %d ",a);
+return 0;
+>>>>>>> 9387d74b829ab1957b93bed0a5b9ab60015e993c
 }
