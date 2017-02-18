@@ -1,10 +1,9 @@
 #include <stdio.h>
- int main()
- {
-       
- 	 printf("/*fdvfdvdf*/")
-     int a;
-     a = 10;
-     printf("The value of a is %d ",a);
-     return 0;
- }
+int main()
+{
+printf("/*fdvfdvdf*/")
+int a;
+a = 10;
+printf("The value of a is %d ",a);
+return 0;
+}
