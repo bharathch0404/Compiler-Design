@@ -4,7 +4,7 @@
      //this is a normal c program
  	/* "i am removing comments /* and // " 
  	lknfljdjvnjdfnlnl*/ 
- 	 printf("/*fdvfdvdf*/")
+ 	printf("/*fdvfdvdf*/")//"abc"//
      int a;
      a = 10;
      printf("The value of a is %d ",a);
