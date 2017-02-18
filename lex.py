@@ -16,7 +16,41 @@ def removecomments():
 			f.write(i)
 	
 
-removecomments()
+#removecomments()
+valueStack = []
+def getNextToken():
+	with open ("input_without_comments.c", "r") as myfile:
+		string=myfile.read()
+	
+	operators = { '=': 'Assignment Operator','+': 'Additon Operator', '-' : 'Substraction Operator', '/' : 'Division Operator', '*': 'Multiplication Operator', '++' : 'increment Operator', '--' : 'Decrement Operator'};
+	optr_keys = operators.keys()
+	header = {'.h': 'header file'}
+	header_keys = header.keys()
+	
+	datatype = {'int': 'Integer','float' : 'Floating Point', 'char': 'Character','long': 'long int'}
+	datatype_keys = datatype.keys()
+	delimiter = {';':'terminator symbol semicolon (;)'}
+	delimiter_keys = delimiter.keys()
 
-#testing 
+	blocks = {'{' : 'Blocked Statement Body Open', '}':'Blocked Statement Body Closed'}
+	block_keys = blocks.keys()
+
+	non_identifiers = ['_','-','+','/','*','`','~','!','@','#','$','%','^','&','*','(',')','=','|','"',':',';','{'
+,'}','[',']','<','>','?','/']
+	string.replace('\n',' ').replace('  ',' ')
+	program =  string.strip().split(' ')
+	print string
+
+getNextToken();
+	
+	
+	
+
+	
+
+	
+
+	
+	
+	
 
