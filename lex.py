@@ -1,6 +1,7 @@
 import re
 from sys import argv
 #Removing comments
+<<<<<<< HEAD
 
 def removecomments():
 	with open ("input.c", "r") as myfile:
@@ -18,3 +19,6 @@ def removecomments():
 
 removecomments()
 
+=======
+#Hi!
+>>>>>>> 1f055d48caf8620514fe7d08bacb974990c27c7f
