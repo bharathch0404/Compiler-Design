@@ -6,10 +6,6 @@
 
 
 
- 	//dfdsvfdv
- 	/*vdfv
- 	fddf
- 	*/
 
 
 
@@ -19,11 +15,7 @@
 
 
 
-
-
-
-		printf("/*fdvfdvdf*/")
-    											int a;
+	printf("fdvfdvdf")
     a =     10;
     printf("The value of a is %d ",a);
     return 0;

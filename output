@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-printf("/*fdvfdvdf*/")
+printf("fdvfdvdf")
 int a;
 a =     10;
+a ++ + ++ b;
 printf("The value of a is %d ",a);
 return 0;
 }
