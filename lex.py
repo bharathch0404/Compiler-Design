@@ -156,23 +156,7 @@ def getNextToken():
 		
 		cnt +=1;
 	for x in range(len(symbolTable)):
-		print(symbolTable[x])			
-		
-'''
-	symbolTable={}
-	print string
-	print program
-	
-	allin = ""
-	x=len(program)
-	for i in program:
-		stringFlag=False
-		
-		if(startQuote in i):
-			stringFlag=True
-		if()'''
-			
-			
+		print(symbolTable[x])						
 getNextToken();
 	
 	
